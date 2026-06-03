@@ -38,6 +38,8 @@ function App() {
 
                     imagem={item.image}
 
+                    especie={item.race}
+
                     ki={item.ki}
                     
                     maxKi={item.maxki}
