@@ -24,7 +24,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className={s.top}>
         <label>Choose page</label>
         <input min={1} max={42} type="number" placeholder='Choose the page you want' value={inputPage} onChange={(e) => setInputPage(e.target.value)}/>
         <button onClick={() => setPage(Number(inputPage))}>BUSCAR</button>

@@ -1,5 +1,17 @@
 .card img{
     width: auto;
-    height: 500px;
+    height: 300px;
+    transition: all ease-in-out 200ms;
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 1));
 }
+
+.card{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 300px;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+}
+
+
 
